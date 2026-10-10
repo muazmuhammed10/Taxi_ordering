@@ -1,0 +1,421 @@
+*{
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+	box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.orange-color{
+    color: #F8CA11
+}
+
+.bg-orange-color{
+    background-color: #F8CA11;
+}
+
+.white-color{
+    Color: #fff;
+}
+
+.bg-white-color{
+    background-color: #fff;
+}
+
+.gray-color{
+    color: #6c757d;
+}
+
+.gray2-color{
+    color: #2b3436;
+}
+
+/* ++++++++++++++++++++++++++ Header ++++++++++++++++++++++++++ */
+header{
+    background-color: #1A1A1A;
+    margin-bottom: 100px;
+}
+
+.burgur{
+    display: none;
+    width: 50px;
+    cursor: pointer;
+}
+
+.sticky{
+    display: flex;
+	justify-content: space-evenly;
+    width: 100%;
+    padding: 25px 0;
+    position: fixed;
+    top: 0;
+    background-color: #1A1A1A;
+    transition: 1s;
+    z-index: 10;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+nav ul li{
+    padding: 0 32px;
+}
+
+nav a:hover{
+    color: #F8CA14;
+    transition: 0.6s;
+}
+
+.content-header{
+    display: flex;
+    margin: 100px 0;
+    justify-content: space-evenly;
+}
+
+.content-header>*{
+    flex-basis: 40%;
+}
+
+.right-content-header p{
+	font-size: inherit;
+}
+
+.right-content-header{
+    text-align: center;
+    
+}
+
+.right-content-header h2{
+    width: 60%;
+    margin: 24px auto;
+    padding: 16px;
+}
+
+.right-content-header h2 p{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.right-content-header img{
+    width: 100%;
+    margin: 24px;
+}
+
+.left-content-header h2{
+    margin: 24px auto;
+}
+
+.left-content-header form{
+    background-color: #fff;
+    display: grid;
+    height: 60%;
+    padding: 32px;
+    text-align: center;
+}
+
+.left-content-header form>*{
+    border: none;
+    width: 90%;
+    margin: 16px auto;
+}
+
+.left-content-header ::placeholder{
+    background-color: #E1E1E1;
+    padding: 16px;
+}
+
+.left-content-header button{
+    color: #fefefe;
+    background-color: #353433;
+    cursor: pointer;
+    padding: 14px;
+    width: 120px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.left-content-header button:hover{
+    color: #353433;
+    background-color: #F8CA14;
+    transition: 0.6s;   
+}
+
+/* ++++++++++++++++++++++++++ XX Header XX ++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++ OUR CAR ++++++++++++++++++++++++++ */
+.our-car{
+    background-color: #161C1E;
+    text-align: center;
+    padding: 50px;
+    /* height: 100vh; */
+    margin-bottom: 100px;
+}
+
+.our-car h2 span{
+    font-size: 64px;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 56px 0;
+    
+}
+
+.articles article{
+    background-color: #FEFEFE;
+    flex-basis: calc(100% / 4);
+    position: relative;
+    display: grid;
+    height: 100%;
+    padding: 24px;
+    text-align: center;
+}
+
+
+.articles span{
+    border-radius: 100%;
+    position: absolute;
+    top: -30px;
+    left: calc(calc(100% / 2) - 24px);
+    padding: 12px;
+}
+
+.articles h4{
+    margin-top: 20px;
+}
+
+.articles img{
+    width: 80%;
+    margin: auto;
+}
+
+.articles p{
+    width: 70%;
+    color: #6c757d;
+    margin: 10% auto;
+}
+/* ++++++++++++++++++++++++++ XX OUR CAR XX ++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++ WHY RIDE ++++++++++++++++++++++++++ */
+main{
+    margin-bottom: 100px;
+}
+
+main h2{
+    margin: 0 auto 80px;
+    padding: 8px;
+    width: 30%;
+    border-bottom: 1px solid #2b3436;
+    text-align: center;
+}
+
+main h2 span{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.main-content{
+    width: 80%;
+    margin: auto;
+}
+
+.main-content article{
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
+}
+
+.main-content p{
+    font-size: 16px;
+}
+
+.main-content img{
+    width: 100%;
+}
+
+.article-main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.article-main-info button{
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 80%;
+}
+
+.article-main-info button:hover{
+    background-color: #000;
+}
+/* ++++++++++++++++++++++++++ XX WHY RIDE XX ++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++ DOWNLOAD APP ++++++++++++++++++++++++++ */
+.download-app{
+    position: relative;
+    height: 80vh;
+    margin-bottom: 100px;
+}
+
+.car-download{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.map-download{
+    position: absolute;
+    width: 15%;
+    height: 80%;
+    right: 5%;
+    bottom: 25px;
+}
+/* ++++++++++++++++++++++++++ XX DOWNLOAD APP XX ++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++ FOOTER ++++++++++++++++++++++++++ */
+footer{
+    background-color: #292828;
+    color: #EBEBEB;
+}
+
+footer h4{
+    margin-bottom: 16px;
+}
+
+footer p,a{
+    font-size: 18px;
+}
+
+.footer-content{
+    width: 80%;
+    padding: 50px 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    column-gap: 16px;
+}
+
+footer li{
+    margin: 4px;
+	margin-bottom: 12px;
+}
+
+footer .icon{
+    background-color: #F8CA14;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 8px;
+    width: 50px;
+    text-align: center;
+}
+
+footer a:hover{
+    color: #F8CA11;
+    cursor: pointer;
+}
+
+footer .contact{
+    list-style-type: disc;
+}
+
+.footer-part:first-of-type{
+    margin-right: 32px;
+}
+
+footer input{
+    font-size: 18px;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 8px;
+}
+/* ++++++++++++++++++++++++++ XX FOOTER XX ++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++ RESPONSIVE FOR MAX-SIZE : 992px ++++++++++++++++++++++++++ */
+@media only screen and (max-width : 991.98px){
+    nav ul{
+        display: none;
+    }
+    .burgur{
+        display: inline-block;
+        height: 50px;
+    }
+    .sticky{
+        display: flex;
+        justify-content: space-around;
+        padding: 24px 0;
+    }
+    .show{
+        display: block;
+    }
+
+    .show li{
+        border-bottom: 1px solid #6c757d;
+    }
+    .add-margin{
+        margin-top: 250px;
+    }
+    .articles{
+        display: grid;
+        gap: 100px;
+    }
+}
+
+/* ++++++++++++++++++++++++++ XX RESPONSIVE FOR MAX-SIZE : 992px XX ++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++  RESPONSIVE FOR MAX-SIZE : 768px ++++++++++++++++++++++++++ */
+@media only screen and (max-width : 767.98px){
+    .content-header{
+        display: inline-block;
+    }
+    .content-header>*{
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+    .footer-content{
+        grid-template-columns: 1fr 1fr;
+        gap: 32px 64px;
+    }
+}
+
+/* ++++++++++++++++++++++++++ XX RESPONSIVE FOR MAX-SIZE : 768px XX ++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++ RESPONSIVE FOR MAX-SIZE : 576px ++++++++++++++++++++++++++ */
+@media only screen and (max-width : 575.98px) {
+    .main-content article{
+        grid-template-columns: 1fr;
+        margin: 16px;
+        padding: 16px 0;
+        border-bottom: 1px solid #353433;
+    }
+    .footer-content{
+        grid-template-columns: 1fr;
+    }
+	.right-content-header{
+		width: 80vw;
+	}
+	
+	.right-content-header p{
+		width: 80%;
+		margin: auto;
+		font-size: 14px!important;
+	}
+}
+/* ++++++++++++++++++++++++++ XX RESPONSIVE FOR MAX-SIZE : 576px XX ++++++++++++++++++++++++++ */
